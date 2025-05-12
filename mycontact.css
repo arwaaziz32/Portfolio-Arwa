@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "opensans";
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(162, 161, 161) ;
+    box-shadow: 0 1px 4px -2px rgba(42, 41, 41, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; /* 16px */
+    align-items: center;
+    background-color: #EBEBE5;
+
+}
+nav {
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2rem;
+    font-family: "shalimar";
+    font-weight: normal;
+    margin-left: 1rem;
+   
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+    margin-right: 1rem;
+   
+}
+a {
+    color: black;
+    text-decoration: underline;
+    font-size: 0.85rem;
+}
+
+a:hover {
+    color: #877F6C;
+}
+main { 
+    /*margin: 5rem auto;*/
+    padding: 0 1.25rem;
+    /*text-align: center;*/
+    padding-top: 3rem;
+    
+}
+fieldset {
+    
+    border: 0.0001px solid rgb(237, 236, 236) ;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 3.10rem;
+    /* text-align: center; */
+    margin-bottom: 1.875rem;
+    font-weight: bold;
+    padding-top: 3.70rem;
+    padding-bottom: 1rem;
+    
+}
+main {
+    margin: 5rem auto;
+    padding: 0 1.25rem;
+    text-align: center;
+}
+form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    gap: 4.375rem;
+    margin-top: 5px;
+}
+input {
+    width: 50% ;
+    height: 2.60rem;
+    gap: 3.125rem;
+    padding-top: 1px;
+}
+textarea {
+    width: 50% ;
+    height: 13rem;
+    padding-top: 10px;
+
+}input::placeholder {
+    font-size: 1.40rem;
+    padding-left: 2px;
+    
+}
+
+textarea::placeholder {
+    font-size: 1.40rem;
+    padding-left: 2px;
+}
+input,textarea {
+    font-size: 1.40rem;
+  
+    padding-left: 1rem;
+}
+button {
+    font-size: 1.56rem;
+    background-color: #EBEBE5;
+    border: 1px solid grey;
+    padding: 3px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    margin-left: 25.50%;
+    cursor: pointer;
+    border-radius: 2px; 
+}
+main {
+    margin-bottom: 0;
+   margin-bottom: 1.75rem;
+}
+button:hover {
+    background-color: #877F6C;
+    
+}
