@@ -68,3 +68,42 @@ main {
     padding-bottom: 3.75px;
     padding-right: 23rem;
 }
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      padding-top: 1rem;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    p, nav {
+        font-size: 1rem;
+      }
+      h1, h2 {
+          font-size: 1.5rem;
+      }
+      a {
+        font-size: 0.75rem;
+        
+    }
+    nav ul {
+        gap: 0.75rem;
+        margin: 1rem 0 0 1rem;
+    }
+    .experience {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+
+    .list-1>.work-list {
+        padding-left: 3rem;
+        padding-right: 2rem;
+        font-size: 1rem;
+        margin-top: -2rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
