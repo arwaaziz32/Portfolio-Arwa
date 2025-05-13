@@ -98,3 +98,53 @@ main {
 main {
     display: flex;
 }
+@media (max-width: 768px) {
+    main {
+      flex-direction: column;
+      padding-top: 1rem;
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    nav {
+        font-size: 1rem;
+      }
+      h1, h2 {
+          font-size: 1.5rem;
+      }
+      a {
+        font-size: 0.75rem;
+        
+    }
+    nav ul {
+        gap: 0.75rem;
+        margin: 1rem 0 0 1rem;
+    }
+    .education {
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    .left-col, .right-col {
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .courses, .academic {
+        font-size: 1.25rem;
+    }
+    .list-1 > .courses-list, .list-2 > .academic-list {
+        padding-left: 1rem;
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .right-col {
+        margin-left: -2rem;
+    }
+    .academic {
+        margin-top: -2rem;
+    }
+}
