@@ -189,5 +189,10 @@ button:hover {
         margin-top: -10rem;
         font-size: 2rem;
     }
+     .right-col {
+        padding: 0%;
+        padding-left: .99rem;
+        
+    }
 
   }
