@@ -166,4 +166,7 @@ button:hover {
         font-size: 2rem;
         margin-top: -2.60rem;
     }
+    input::placeholder, textarea::placeholder {
+        font-size: 1rem;
+    }
 }
